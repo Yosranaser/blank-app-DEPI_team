@@ -34,3 +34,4 @@ def main():
     tech_support = st.selectbox("Tech Support", ['Yes', 'No', 'No internet service'])
     streaming_tv = st.selectbox("Streaming TV", ['Yes', 'No', 'No internet service'])
     streaming_movies = st.selectbox("Streaming Movies", ['Yes', 'No',
+main()
