@@ -1,5 +1,4 @@
 import streamlit as st
-
 def main():
     # Set the title of the app
     st.title("Welcome to the Churn Prediction App")
