@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the saved model
-model_filename = '/mnt/data/model (3).pkl'
+model_filename = 'model (3).pkl'
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
