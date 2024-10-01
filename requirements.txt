@@ -2,5 +2,6 @@ scikit-learn
 numpy
 pandas
 pickle5
+streamlit
 
 
