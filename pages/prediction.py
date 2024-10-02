@@ -20,7 +20,6 @@ def main():
     contract = st.selectbox("Contract Type", ['Month-to-month', 'One year', 'Two year'])
     paperless_billing = st.selectbox("Paperless Billing", ['Yes', 'No'])
     payment_method = st.selectbox("Payment Method", ['Electronic check', 'Mailed check', 'Bank transfer', 'Credit card'])
-    
     senior_citizen = st.selectbox("Is the customer a senior citizen?", ['Yes', 'No'])
     gender = st.selectbox("Gender", ['Male', 'Female'])
     partner = st.selectbox("Has a partner", ['Yes', 'No'])
@@ -34,4 +33,4 @@ def main():
     tech_support = st.selectbox("Tech Support", ['Yes', 'No', 'No internet service'])
     streaming_tv = st.selectbox("Streaming TV", ['Yes', 'No', 'No internet service'])
     streaming_movies = st.selectbox("Streaming Movies", ['Yes', 'No',
-main()
+
